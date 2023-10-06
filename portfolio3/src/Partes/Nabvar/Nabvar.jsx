@@ -1,5 +1,6 @@
 import React from 'react';
 import imgNav from '/src/assets/anillos.png';
+import { Boton } from '../BotonCV/BotonCV';
 
 const Navbar = () => {
     return (
@@ -14,7 +15,7 @@ const Navbar = () => {
                         <a href="#portfolio"><li className='p-4 font-bold hover:bg-slate-600 transition delay-150 duration-300 ease-in-out' >Portafolio</li></a>
                         <a href="#contacto"><li className='p-4 font-bold hover:bg-slate-600 transition delay-150 duration-300 ease-in-out' >Contacto</li></a>
                     </ul>
-                    <button className='max-md:ml-0 max-md:p-4 bg-fondoDos font-bold hover:bg-red-400 p-3 rounded '><a href="./public/CV.pdf" download={' CV '} >Descargar CV</a></button>
+                    <Boton/>
                 </div>
             </nav>
         </div>
