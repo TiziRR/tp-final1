@@ -1,4 +1,5 @@
 import React from 'react';
+import imgHeader from '/src/assets/fondo.png';
 
 const Header = () => {
     return (
@@ -12,7 +13,7 @@ const Header = () => {
                 <p className='max-md:pl-2 max-md:pr-2 max-md:text-center text-sm pt-4'>Tengo 19 años, soy Argentino y, a su vez, soy Estudiante de Programación. Me caracterizo por ser una persona empatica, estrica y responsable. Poseo la predispoción para el trabajo en equipo. </p>
             </div>
             <div className='max-md:w-full flex w-[42%]'>
-                <img className='w-full h-full' src="/src/assets/fondo.png" alt="hola" />
+                <img className='w-full h-full' src={imgHeader} alt="hola" />
             </div>
         </div>
     )

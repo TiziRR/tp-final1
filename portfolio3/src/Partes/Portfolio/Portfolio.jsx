@@ -1,4 +1,6 @@
 import React from 'react';
+import imgPort1 from '/src/assets/pr1.png';
+import imgPort2 from '/src/assets/pr2.png';
 
 const Portfolio = () => {
     return (
@@ -22,8 +24,8 @@ const Portfolio = () => {
                 </div>
                 <div className='flex w-full h-full'>
                     <ul className='w-full h-full flex flex-wrap flex-row justify-center p-10'>
-                        <li className='p-3'><a href="https://first-project-tiziano.vercel.app/" target='_blank'><img className='w-80 h-80 object-cover cursor-pointer hover:-translate-y-3 transition delay-150 duration-300 ease-in-out' src="/src/assets/pr1.png" /></a></li>
-                        <li className='p-3'><img className='w-80 h-80 object-cover cursor-pointer hover:-translate-y-3 transition delay-150 duration-300 ease-in-out' src="/src/assets/pr2.png" /></li>
+                        <li className='p-3'><a href="https://first-project-tiziano.vercel.app/" target='_blank'><img className='w-80 h-80 object-cover cursor-pointer hover:-translate-y-3 transition delay-150 duration-300 ease-in-out' src={imgPort1} /></a></li>
+                        <li className='p-3'><img className='w-80 h-80 object-cover cursor-pointer hover:-translate-y-3 transition delay-150 duration-300 ease-in-out' src={imgPort2} /></li>
                     </ul>
                 </div>
                 <div className='flex w-full h-full justify-center pb-10'>
